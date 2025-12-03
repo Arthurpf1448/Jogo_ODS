@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_mar",
+  "%Name":"obj_peixe_pai",
   "eventList":[],
   "managed":true,
-  "name":"obj_mar",
+  "name":"obj_peixe_pai",
   "overriddenProperties":[],
   "parent":{
     "name":"Fase1",
@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_mar",
-    "path":"sprites/spr_mar/spr_mar.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

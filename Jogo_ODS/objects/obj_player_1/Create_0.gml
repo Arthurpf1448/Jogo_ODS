@@ -1,8 +1,11 @@
 event_inherited()
 audio_play_sound(snd_musica_1, 2, true)
-vel = 2
-grv = 0.03
+
+vel        = 2
+grv        = 0.03
 forca_cima = 1.5
+hp         = 100
+ox         = 50
 
 function input_player()
 {
@@ -46,5 +49,18 @@ function input_player()
 	if image_speed < 1
 	{
 		image_speed += 0.1
+	}
+}
+
+function damage()
+{
+	_col_agua = place_meeting(x, y, obj_mar)
+	if _col_agua and hp > 0 and ox == 0
+	{
+		hp -= 2.0 / room_speed
+	}
+	if _col_agua and ox > 0
+	{
+		ox -= 5.0 / room_speed
 	}
 }

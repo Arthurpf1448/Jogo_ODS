@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_mar",
+  "%Name":"obj_bolha",
   "eventList":[],
   "managed":true,
-  "name":"obj_mar",
+  "name":"obj_bolha",
   "overriddenProperties":[],
   "parent":{
     "name":"Fase1",
@@ -28,9 +28,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_mar",
-    "path":"sprites/spr_mar/spr_mar.yy",
+    "name":"spr_bolha",
+    "path":"sprites/spr_bolha/spr_bolha.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
