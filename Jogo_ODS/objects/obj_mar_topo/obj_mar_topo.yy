@@ -6,8 +6,8 @@
   "name":"obj_mar_topo",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Fase1",
+    "path":"folders/Objetos/Fase1.yy",
   },
   "parentObjectId":null,
   "persistent":false,

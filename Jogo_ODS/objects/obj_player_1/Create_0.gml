@@ -1,4 +1,5 @@
 event_inherited()
+audio_play_sound(snd_musica_1, 2, true)
 vel = 2
 grv = 0.03
 forca_cima = 1.5

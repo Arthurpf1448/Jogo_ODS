@@ -9,8 +9,8 @@
   "name":"obj_player_1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Fase1",
+    "path":"folders/Objetos/Fase1.yy",
   },
   "parentObjectId":{
     "name":"obj_colisao",
