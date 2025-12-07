@@ -1,7 +1,13 @@
 {
   "$GMObject":"",
   "%Name":"obj_bolha",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player_1","path":"objects/obj_player_1/obj_player_1.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_bolha",
   "overriddenProperties":[],
@@ -28,9 +34,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bolha",
-    "path":"sprites/spr_bolha/spr_bolha.yy",
+    "name":"spr_bolha_spawn",
+    "path":"sprites/spr_bolha_spawn/spr_bolha_spawn.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_bolha_idle",
+    "path":"sprites/spr_bolha_idle/spr_bolha_idle.yy",
+  },
   "visible":true,
 }

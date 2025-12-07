@@ -6,8 +6,8 @@
   "name":"obj_mar",
   "overriddenProperties":[],
   "parent":{
-    "name":"Fase1",
-    "path":"folders/Objetos/Fase1.yy",
+    "name":"Geral",
+    "path":"folders/Objetos/Geral.yy",
   },
   "parentObjectId":null,
   "persistent":false,

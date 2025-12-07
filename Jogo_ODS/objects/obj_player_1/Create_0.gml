@@ -5,7 +5,19 @@ vel        = 2
 grv        = 0.03
 forca_cima = 1.5
 hp         = 100
+hp_mx      = 100
 ox         = 50
+ox_mx      = 50
+
+barra_hp_W = 106
+barra_hp_H = 12
+barra_hp_X = 32
+barra_hp_Y = 60
+
+barra_ox_W = 106
+barra_ox_H = 12
+barra_ox_X = 32
+barra_ox_Y = 80
 
 function input_player()
 {
@@ -14,7 +26,7 @@ function input_player()
 	_right = keyboard_check(ord("D"))
 	_up    = keyboard_check_pressed(vk_space)
 	
-	var _xDir = _right - _left
+	_xDir = _right - _left
 	
 	velh = vel * (_right - _left)
 	var _no_chao = place_meeting(x, y + 1, obj_bloco_areia)

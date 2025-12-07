@@ -44,8 +44,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"Fase1",
-    "path":"folders/Sprites/Fase1.yy",
+    "name":"Geral",
+    "path":"folders/Sprites/Geral.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

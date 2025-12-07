@@ -9,8 +9,8 @@
   "name":"obj_colisao",
   "overriddenProperties":[],
   "parent":{
-    "name":"Fase1",
-    "path":"folders/Objetos/Fase1.yy",
+    "name":"Geral",
+    "path":"folders/Objetos/Geral.yy",
   },
   "parentObjectId":null,
   "persistent":false,

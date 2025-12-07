@@ -6,10 +6,13 @@
   "name":"obj_peixe_1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Fase1",
-    "path":"folders/Objetos/Fase1.yy",
+    "name":"Saudavel",
+    "path":"folders/Objetos/Peixes/Saudavel.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_peixe_pai",
+    "path":"objects/obj_peixe_pai/obj_peixe_pai.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

@@ -1,6 +1,7 @@
+if (global.pause) exit;
 var _colx, _coly
-_colx = instance_place(x + velh, y, obj_bloco_areia)
-_coly = instance_place(x, y + velv, obj_bloco_areia)
+_colx = instance_place(x + velh, y, obj_solido)
+_coly = instance_place(x, y + velv, obj_solido)
 
 if _colx
 {
@@ -29,4 +30,7 @@ if _coly
 }
 
 x += velh
-y += velv	
+y += velv
+
+x = clamp(x, 0, room_width);
+y = clamp(y, 0, room_height);
