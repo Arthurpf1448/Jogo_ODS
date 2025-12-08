@@ -12,21 +12,21 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"97d9b93a-acc0-420b-8fee-34e136e3086b","name":"97d9b93a-acc0-420b-8fee-34e136e3086b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5dbe9f70-07df-4bb9-b391-32629163fc47","name":"5dbe9f70-07df-4bb9-b391-32629163fc47","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":32,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"5ede94ca-9d4b-4a52-ae97-c7a3797dc81f","blendMode":0,"displayName":"default","isLocked":false,"name":"5ede94ca-9d4b-4a52-ae97-c7a3797dc81f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"8c300b86-d092-4827-8577-82eb6dcbda21","blendMode":0,"displayName":"default","isLocked":false,"name":"8c300b86-d092-4827-8577-82eb6dcbda21","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_bloco_areia",
   "nineSlice":null,
   "origin":1,
   "parent":{
-    "name":"Fase1",
-    "path":"folders/Sprites/Fase1.yy",
+    "name":"Outros",
+    "path":"folders/Sprites/Fase1/Outros.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"97d9b93a-acc0-420b-8fee-34e136e3086b","path":"sprites/spr_bloco_areia/spr_bloco_areia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"efe486b7-f4ab-47f7-8034-21f2b587be1e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5dbe9f70-07df-4bb9-b391-32629163fc47","path":"sprites/spr_bloco_areia/spr_bloco_areia.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"58bc5334-1faf-4af9-9b0a-9ec59a06e85d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

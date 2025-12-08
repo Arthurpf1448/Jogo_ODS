@@ -12,4 +12,10 @@ if _videoStatus == 0
 if video_get_status() == video_status_closed
 {
 	room_goto(Room1)
+} else
+{
+	if keyboard_check_pressed(vk_space)
+	{
+		room_goto(Room1)
+	}
 }

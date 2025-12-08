@@ -30,8 +30,8 @@
   "nineSlice":null,
   "origin":7,
   "parent":{
-    "name":"Fase1",
-    "path":"folders/Sprites/Fase1.yy",
+    "name":"Outros",
+    "path":"folders/Sprites/Fase1/Outros.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

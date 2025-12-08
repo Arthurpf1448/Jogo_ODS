@@ -1,6 +1,7 @@
 event_inherited()
 audio_play_sound(snd_musica_1, 2, true)
 
+pontos     = 0
 vel        = 2
 grv        = 0.03
 forca_cima = 1.5
@@ -30,7 +31,7 @@ function input_player()
 	
 	velh = vel * (_right - _left)
 	var _no_chao = place_meeting(x, y + 1, obj_bloco_areia)
-	var _na_superficie = place_meeting(x, y - 1, obj_limite_nado)
+	var _na_superficie = place_meeting(x, y + 2, obj_limite_nado)
 	
 	if _xDir != 0
 	{
@@ -44,7 +45,12 @@ function input_player()
 	{
 		velv = 0.5
 	}
-	if !_na_superficie and _up 
+	if _na_superficie
+	{
+		ox += 0.3
+		velv += 0.01
+	}
+	if !_na_superficie and _up
 	{
 		image_speed = 2.5
 		velv = -forca_cima
@@ -66,7 +72,7 @@ function input_player()
 
 function damage()
 {
-	_col_agua = place_meeting(x, y, obj_mar)
+	var _col_agua = place_meeting(x, y, obj_mar)
 	if _col_agua and hp > 0 and ox == 0
 	{
 		hp -= 2.0 / room_speed

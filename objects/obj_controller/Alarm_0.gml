@@ -9,7 +9,7 @@ if instance_exists(obj_player_1)
 	if (global.pause) rpt = 0
 	repeat(rpt)
 	{
-	if !collision_circle(_x, _y, 20, obj_bolha, false, false)
+	if !collision_circle(_x, _y, 8, obj_coisa_no_mar, false, false)
 	{
 		instance_create_layer(_x, _y, layer, obj_bolha)
 		ok = true
