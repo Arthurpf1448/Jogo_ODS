@@ -12,10 +12,7 @@
     "name":"Geral",
     "path":"folders/Objetos/Geral.yy",
   },
-  "parentObjectId":{
-    "name":"obj_coisa_no_mar",
-    "path":"objects/obj_coisa_no_mar/obj_coisa_no_mar.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

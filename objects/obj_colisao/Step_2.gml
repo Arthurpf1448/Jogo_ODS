@@ -1,4 +1,7 @@
-if (global.pause) exit;
+if (global.pause){
+	image_speed = 0
+	exit
+}
 var _colx, _coly
 _colx = instance_place(x + velh, y, obj_solido)
 _coly = instance_place(x, y + velv, obj_solido)

@@ -6,8 +6,8 @@
   "name":"obj_tubarao",
   "overriddenProperties":[],
   "parent":{
-    "name":"Saudavel",
-    "path":"folders/Objetos/Peixes/Saudavel.yy",
+    "name":"Peixes",
+    "path":"folders/Objetos/Peixes.yy",
   },
   "parentObjectId":{
     "name":"obj_peixe_pai",

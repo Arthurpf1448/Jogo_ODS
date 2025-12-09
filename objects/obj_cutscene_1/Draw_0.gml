@@ -1,5 +1,5 @@
-var w = surface_get_width(application_surface);
-var h = surface_get_height(application_surface);
+var w = room_width;
+var h = room_height;
 
 var _videoData   = video_draw()
 var _videoStatus = _videoData[0]

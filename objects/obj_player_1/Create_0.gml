@@ -31,7 +31,7 @@ function input_player()
 	
 	velh = vel * (_right - _left)
 	var _no_chao = place_meeting(x, y + 1, obj_bloco_areia)
-	var _na_superficie = place_meeting(x, y + 2, obj_limite_nado)
+	var _na_superficie = place_meeting(x, y - 2, obj_limite_nado)
 	
 	if _xDir != 0
 	{
