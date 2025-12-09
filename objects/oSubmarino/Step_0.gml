@@ -22,5 +22,17 @@ if !place_meeting(x + velX, y, oBlocoCima) and !place_meeting(x + velX, y, oBloc
 	x += velX
 }
 
+if (mouse_check_button_pressed(mb_left)) {
+    if (!instance_exists(obj_gancho)) {
+
+        var h = instance_create_layer(x, y, "Instances", obj_gancho);
+
+        h.sub = id;
+
+        h.direction = point_direction(x, y, mouse_x, mouse_y);
+    }
+}
+
+
 move_and_collide(velX, velY, oBlocoCima)
 move_and_collide(velX, velY, oBlocoMeio)
