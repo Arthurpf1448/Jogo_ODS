@@ -1,5 +1,5 @@
 event_inherited()
-audio_play_sound(snd_musica_1, 2, true)
+
 
 pontos     = 0
 vel        = 2

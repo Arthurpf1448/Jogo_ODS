@@ -1,0 +1,1 @@
+obj_player_2.hp -= 0.8
