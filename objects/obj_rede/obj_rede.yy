@@ -1,16 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_colisao",
+  "%Name":"obj_rede",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player_2","path":"objects/obj_player_2/obj_player_2.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_colisao",
+  "name":"obj_rede",
   "overriddenProperties":[],
   "parent":{
-    "name":"Fase1",
-    "path":"folders/Objetos/Fase1.yy",
+    "name":"Fase2",
+    "path":"folders/Objetos/Fase2.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_rede",
+    "path":"sprites/spr_rede/spr_rede.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

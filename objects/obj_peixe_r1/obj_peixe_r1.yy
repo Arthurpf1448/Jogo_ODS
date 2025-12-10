@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_colisao",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_peixe_r1",
+  "eventList":[],
   "managed":true,
-  "name":"obj_colisao",
+  "name":"obj_peixe_r1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Fase1",
-    "path":"folders/Objetos/Fase1.yy",
+    "name":"PeixesNaRede",
+    "path":"folders/Objetos/Peixes/PeixesNaRede.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_peixe_rede_pai",
+    "path":"objects/obj_peixe_rede_pai/obj_peixe_rede_pai.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,7 +30,13 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
-  "spriteMaskId":null,
+  "spriteId":{
+    "name":"spr_peixe_3",
+    "path":"sprites/spr_peixe_3/spr_peixe_3.yy",
+  },
+  "spriteMaskId":{
+    "name":"spr_peixe_5",
+    "path":"sprites/spr_peixe_5/spr_peixe_5.yy",
+  },
   "visible":true,
 }

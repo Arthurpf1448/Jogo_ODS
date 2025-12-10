@@ -1,3 +1,9 @@
+if(global.pause)
+{
+	image_speed = 0
+	exit
+}
+else image_speed = 1;
 var left = keyboard_check(ord("A"))
 var right = keyboard_check(ord("D"))
 var up = keyboard_check(ord("W"))
